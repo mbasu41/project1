@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #0eadd4;
+    transition: .5s;
+  }
+  main {
+      width: 70%;
+      height: 100vh;
+      float: left;
+  }
+  .question {
+      color: coral;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 30px;
+  }
+  .answer {
+      color: lightseagreen;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 20px;
+      text-align: justify;
+  }
+  .sidebar {
+      float: right;
+      width: 25%;
+      margin-right: 30px;
+      margin-top: 30px;
+      background-color:lightcoral;
+  }
+  .sidehead {
+    font-weight: bold;
+    color: khaki;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+
+  }
+  .sidebar ul {
+      color: white;
+      list-style: none;
+      
+  }
+  .sidebar ul li {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+  }
+  .sidebar1 {
+    float: right;
+    width: 25%;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: lightseagreen;
+}
+.sidebar1 ul {
+  color: snow;
+  list-style: none;
+}
+.sidebar1 ul li {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.sidehead1 {
+  font-weight: bold;
+  color: darkorchid;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.sidebar2 {
+  float: right;
+  width: 25%;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 2px;
+  background-color: darkslateblue;
+}
+.sidehead2 {
+  color: chartreuse;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.sidebar2 ul {
+  color: white;
+  list-style: none;
+}
+.sidebar2 ul li {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
